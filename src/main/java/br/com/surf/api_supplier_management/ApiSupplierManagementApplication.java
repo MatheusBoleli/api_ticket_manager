@@ -9,7 +9,7 @@ import org.springframework.data.web.config.EnableSpringDataWebSupport;
 @EnableSpringDataWebSupport
 @EnableCaching
 public class ApiSupplierManagementApplication {
-	//Executor da Aplicação
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ApiSupplierManagementApplication.class, args);
 		
