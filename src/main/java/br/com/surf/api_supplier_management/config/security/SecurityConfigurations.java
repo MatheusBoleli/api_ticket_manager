@@ -26,8 +26,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter{
 		.antMatchers(HttpMethod.GET, "/ticket").permitAll()
 		.antMatchers(HttpMethod.GET, "/ticket/*").permitAll()
 		.antMatchers(HttpMethod.GET, "/catalogoAbertura").permitAll()
-		.anyRequest().authenticated()
-		.and().formLogin()
+
 		;
 		
 		
