@@ -14,5 +14,4 @@ public class ApiSupplierManagementApplication {
 		SpringApplication.run(ApiSupplierManagementApplication.class, args);
 		
 	}
-
 }

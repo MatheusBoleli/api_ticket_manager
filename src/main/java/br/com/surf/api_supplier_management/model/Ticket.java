@@ -31,6 +31,10 @@ public class Ticket {
 	private Criticidade criticidade;
 
 	@ManyToOne
+	private Usuario usuario;
+	
+	
+	@ManyToOne
 	private TicketStatus ticketStatus;
 
 	private LocalDateTime dataAbertura = LocalDateTime.now();
