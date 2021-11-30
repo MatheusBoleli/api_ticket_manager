@@ -8,6 +8,7 @@
 		<version>2.6.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
 	<groupId>br.com.surf</groupId>
 	<artifactId>api_supplier_management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
